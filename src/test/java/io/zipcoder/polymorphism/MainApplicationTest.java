@@ -19,7 +19,7 @@ public class MainApplicationTest {
         String[] names = {"Zack", "Paul", "King"};
 
         //Then
-        Assert.assertEquals(names, MainApplication.getUserPetNames(pets);
+        Assert.assertEquals(names, MainApplication.getUserPetNames(pets));
     }
 
     @Test
