@@ -31,9 +31,9 @@ public class MainApplicationTest {
 
         //When
         ArrayList<Pet> pets = new ArrayList<>(Arrays.asList(dog, cat, bird));
-        String[] speak = {"Woof", "Meow", "Tweet"};
+        String[] speak = {"Woof!", "Meow!", "Squawk!"};
 
         //Then
-        Assert.assertEquals(speak , MainApplication.getUserPetSpeak(speak));
+        Assert.assertEquals(speak , MainApplication.getUserPetSpeak(pets));
     }
 }

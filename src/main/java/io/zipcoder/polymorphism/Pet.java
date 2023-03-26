@@ -1,10 +1,9 @@
 package io.zipcoder.polymorphism;
 
 public class Pet {
-    Pet pet;
     String name;
     public Pet(String givenName) {
-        this.name = "Bob";
+        this.name = givenName;
     }
 
     public String getName() {
